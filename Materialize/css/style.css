@@ -1,0 +1,28 @@
+body{
+	background-image: url('../imagen/londres.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.sociales i{
+	color:white;
+	cursor: pointer;
+}
+
+.photo{
+	border: 2px solid black;
+}
+
+.post{
+	background-color: white;
+	color:black;
+}
+
+
+@media(max-width: 900px){
+	.sociales{
+		display: none;
+	}
+}
