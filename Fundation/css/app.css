@@ -1,0 +1,64 @@
+body{
+	background-image: url(../imagen/bg.jpg);
+	
+}
+
+ul li{text-decoration: none;}
+
+ul li a{color:black;}
+
+ul li a:hover{background-color: black; color:#CEF6CE;}
+
+.active{
+	background-color:#CEF6CE;
+	color:black;
+}
+
+.imgf{
+	margin:10px;
+}
+
+.opc{
+	background: rgba(255, 0, 0, 0.4);
+
+}
+
+.logo{
+	background-color:#CEF6CE;
+	color:black;
+}
+
+.blanco{
+	background-color:white;
+	padding: 10px;
+
+}
+
+.menus{
+	background-color: white;
+	padding: 10px;
+}
+
+.avatar{
+	width: 100%;
+}
+
+.text{
+	text-align:justify;
+}
+
+@media(max-width: 900px){
+	.menus{
+		display: none;
+	}
+
+	.logo{
+		text-align: center;
+		width: 100%;
+	}
+
+	.avatar img{
+	width: 100%;
+}
+
+}
